@@ -1,0 +1,12 @@
+.wrapper{
+    width: 300px;
+    text-align: center;
+}
+
+.changeColorBtn{
+    background: rgb(69, 193, 250);
+    border-radius: 10px;
+    padding: 10px 18px;
+    border:none;
+    color:rgb(34, 34, 34);
+}
