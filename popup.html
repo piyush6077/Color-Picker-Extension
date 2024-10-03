@@ -1,18 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <link rel="stylesheet" href="popup.css">
+    <link rel="stylesheet" href="popup.css">
 </head>
 <body>
     <div class="wrapper">
-        <h1>color picker</h1>
-        <button class="changeColorBtn">Pick the Color</button> 
-        <div class="selectedColor">
-            <span class="colorGrid"></span>
-            <span class="colorValue"></span>
+        <h1 class="pickerhead">Color Picker</h1>
+        <button id="pickColorBtn">Pick Color</button>
+        <div class="flexG">
+            <div class="colorh">
+                <div class="color">
+                    <p style="margin-right: 7px;">Color : </p>
+                    <div id="colorDisplay" ></div>
+                </div>
+                <div class="color">
+                    <p style="margin-right: 7px;">HSX : </p>
+                    <div id="colorCode">#000000</div>
+                </div>
+                <div class="color">
+                    <p style="margin-right: 7px;">RGB : </p>
+                    <div id="colorCodeRGB">rgb( 000, 000, 000)</div>
+                </div>
+            </div>
+            <div style="display: flex;align-items: center;">
+                <div id="colorComp"></div>
+            </div>
         </div>
+        <script src="popup.js"></script>
     </div>
 
-    <script src="popup.js"></script>
 </body>
 </html>

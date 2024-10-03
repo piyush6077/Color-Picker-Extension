@@ -1,14 +1,11 @@
 {
-    "name":"color picker",
-    "description":"A color picker extension",
-    "version":"1.0",
-    "manifest_version":3,
-    "background":{
-        "service_worker":"background.js"
-    },
-    "action":{
-        "default_popup":"popup.html"
+    "name": "Color Picker",
+    "manifest_version": 3,
+    "version": "1.0.0",
+    "description": "A simple color picker using the EyeDropper API.",
+    "permissions": ["activeTab"],
+    "action": {
+      "default_popup": "popup.html"
     }
-
-
-}
+  }
+  
