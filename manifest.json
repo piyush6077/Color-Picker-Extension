@@ -6,6 +6,11 @@
     "permissions": ["activeTab"],
     "action": {
       "default_popup": "popup.html"
+    },
+    "icons":{
+        "16": "/assets/color_picker_logo_16.png",
+        "32": "/assets/color_picker_logo_32.png",
+        "48": "/assets/color_picker_logo_48.png"
     }
   }
   
